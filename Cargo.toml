@@ -1,0 +1,12 @@
+[package]
+name = "agent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chatgpt_rs = "1.2.3"
+clap = { version = "4.4.11", features = ["cargo"] }
+tokio = { version = "1.35.0", features = ["rt-multi-thread"] }
+anyhow = "1.0.75"
