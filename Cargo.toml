@@ -1,11 +1,11 @@
 [package]
 name = "ask-jarvis"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Jarvis at your service."
 license = "MIT"
 keywords = ["gpt", "agent", "AI"]
-repository = "https://gitlab.com/geaux-eric/ask-jarvis"
+repository = "https://github.com/GeauxEric/ask-jarvis"
 
 [dependencies]
 chatgpt_rs = "1.2.3"
